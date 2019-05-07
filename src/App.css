@@ -9,8 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin-top:100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +17,26 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.oper{
+   color: #1890ff;
+   cursor: pointer;
+}
+.fetchBox{
+  width:1150px;
+}
+.tableBox{
+  width:800px;
+  float: left;
+  margin-top:30px;
+}
+.addUser{
+  margin-top:30px;
+  width:300px;
+  float: right;
+}
+.addUser input{
+  margin-bottom:20px;
+}
 .App-link {
   color: #61dafb;
 }
@@ -30,4 +48,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.search{
+  width:500px;
 }
